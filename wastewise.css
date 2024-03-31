@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2ecc71; /* light green */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #37f084; /* light green */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #5ebfff; /* blue */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li:hover{
+    background-color: #333;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.image1 {
+    height: 60%;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+}
+
+section {
+    padding: 20px;
+}
+
+.home {
+    background-color: #37f084; /* light green */
+}
+
+.about {
+    background-color: #5ebfff; /* blue */
+    color: #fff;
+}
+
+.techniques {
+    background-color: #37f084; /* light green */
+}
+
+.discussion_forum {
+    background-color: #5ebfff; /* blue */
+    color: #fff;
+}
+
+.help {
+    background-color: #37f084; /* light green */
+    color: #fff;
+}
+
+.readmorebutton {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5ebfff; /* blue */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #5ebfff; /* darker blue */
+}
+.heading h1{
+    text-align: center;
+}
+.heading h2{
+    text-align: center;
+}
+.heading{
+    margin: auto;
+    font-size: larger;
+}
+.about #about{
+    text-align: center;
+}
+.techniques #concepts{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.techniques #concepts img{
+    display: inline;
+    width: 48%;
+    height: 250px;
+}
+.techniques #concepts p{
+    display: inline;
+    margin-left: 8px;
+}
